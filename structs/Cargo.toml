@@ -1,12 +1,7 @@
-workspace = { members = ["ownership", "structs"] }
 [package]
-name = "rust_primitives"
+name = "structs"
 version = "0.1.0"
 edition = "2021"
-
-[[bin]]
-name = "structs"
-path = "structs/src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
